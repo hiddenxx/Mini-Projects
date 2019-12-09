@@ -1,0 +1,326 @@
+2019-12-09 11:42:51,482 - __main__ - ERROR - Connection Error.
+2019-12-09 11:42:57,866 - __main__ - ERROR - Connection Error.
+2019-12-09 11:46:11,330 - __main__ - ERROR - Connection Error.
+2019-12-09 11:48:06,114 - __main__ - INFO - Added IP : {'ip': '109.251.185.20', 'port': '36583'}
+2019-12-09 11:48:09,172 - __main__ - ERROR - Connection Error.
+2019-12-09 11:48:37,694 - __main__ - INFO - Added IP : {'ip': '36.78.76.9', 'port': '8080'}
+2019-12-09 11:48:43,307 - __main__ - INFO - Added IP : 36.78.76.9 , Response : <Response [200]>
+2019-12-09 11:49:10,325 - __main__ - INFO - Added Proxy : {'ip': '91.237.3.59', 'port': '8080'}
+2019-12-09 11:49:13,382 - __main__ - ERROR - Connection Error.
+2019-12-09 11:54:26,848 - __main__ - INFO - Added Proxy : {'ip': '81.17.150.122', 'port': '8080'}
+2019-12-09 11:54:29,906 - __main__ - ERROR - Connection Error.
+2019-12-09 11:54:49,830 - __main__ - INFO - Added Proxy : {'ip': '177.21.224.73', 'port': '8080'}
+2019-12-09 11:54:54,839 - __main__ - ERROR - Connection Error.
+2019-12-09 11:55:12,009 - __main__ - INFO - Added Proxy : {'ip': '110.77.231.80', 'port': '80'}
+2019-12-09 11:55:17,018 - __main__ - ERROR - Connection Error.
+2019-12-09 12:06:55,912 - __main__ - INFO - Added Proxy : {'ip': '110.77.231.80', 'port': '80'}
+2019-12-09 12:07:14,675 - __main__ - INFO - Added Proxy : {'ip': '81.17.150.122', 'port': '8080'}
+2019-12-09 12:07:19,682 - __main__ - ERROR - Connection Error.
+2019-12-09 12:07:46,818 - __main__ - INFO - Added Proxy : {'ip': '183.89.62.87', 'port': '8080'}
+2019-12-09 12:07:52,740 - __main__ - INFO - Added IP : 183.89.62.87 , Response : <Response [200]>
+2019-12-09 12:08:14,728 - __main__ - INFO - Added Proxy : {'ip': '185.58.16.41', 'port': '8888'}
+2019-12-09 12:08:24,742 - __main__ - ERROR - Connection Error.
+2019-12-09 12:14:04,576 - __main__ - INFO - Added Proxy : {'ip': '41.180.64.254', 'port': '80'}
+2019-12-09 12:14:07,995 - __main__ - INFO - Added IP : 41.180.64.254 , Response : <Response [200]>
+2019-12-09 12:23:12,211 - __main__ - INFO - Added Proxy : {'ip': '177.21.224.73', 'port': '8080'}
+2019-12-09 12:24:11,829 - __main__ - INFO - Added Proxy : {'ip': '195.78.112.235', 'port': '37169'}
+2019-12-09 12:24:35,917 - __main__ - INFO - Added Proxy : {'ip': '51.158.106.54', 'port': '8811'}
+2019-12-09 12:24:41,775 - __main__ - INFO - Added Proxy : {'ip': '103.86.135.42', 'port': '8080'}
+2019-12-09 12:25:50,555 - __main__ - INFO - Added Proxy : {'ip': '165.22.36.112', 'port': '3128'}
+2019-12-09 12:27:57,783 - __main__ - INFO - Added Proxy : {'ip': '213.109.129.56', 'port': '8080'}
+2019-12-09 12:28:19,306 - __main__ - INFO - Added Proxy : {'ip': '81.182.164.40', 'port': '8080'}
+2019-12-09 12:29:00,744 - __main__ - INFO - Added Proxy : {'ip': '45.226.124.242', 'port': '8080'}
+2019-12-09 12:30:16,585 - __main__ - INFO - Added Proxy : {'ip': '110.77.231.80', 'port': '80'}
+2019-12-09 12:30:26,592 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7f17e9e99128>, 'Connection to 110.77.231.80 timed out. (connect timeout=10)')
+2019-12-09 12:30:45,932 - __main__ - INFO - Added Proxy : {'ip': '94.51.83.2', 'port': '8080'}
+2019-12-09 19:49:00,997 - __main__ - INFO - Added Proxy : {'ip': '182.52.238.118', 'port': '50390'}
+2019-12-09 19:49:04,064 - __main__ - ERROR - ('Cannot connect to proxy.', ConnectionResetError(104, 'Connection reset by peer'))
+2019-12-09 19:49:20,996 - __main__ - INFO - Added Proxy : {'ip': '122.50.5.146', 'port': '10000'}
+2019-12-09 19:49:23,541 - __main__ - INFO - Added IP : 122.50.5.146 , Response : <Response [200]>
+2019-12-09 19:49:30,851 - __main__ - INFO - Added Proxy : {'ip': '177.220.188.213', 'port': '8080'}
+2019-12-09 19:49:37,561 - __main__ - INFO - Added IP : 177.220.188.213 , Response : <Response [200]>
+2019-12-09 19:57:35,902 - __main__ - INFO - Added Proxy : {'ip': '185.58.16.41', 'port': '8888'}
+2019-12-09 19:58:52,606 - __main__ - INFO - Added Proxy : {'ip': '45.226.124.242', 'port': '8080'}
+2019-12-09 20:00:59,724 - __main__ - INFO - Added Proxy : None
+2019-12-09 20:02:51,273 - __main__ - INFO - Added Proxy : {'ip': '94.51.83.2', 'port': '8080'}
+2019-12-09 20:02:55,665 - __main__ - INFO - Added IP : 94.51.83.2 , Response : <Response [200]>
+2019-12-09 20:10:26,877 - __main__ - INFO - Added Proxy : {'ip': '185.58.16.41', 'port': '8888'}
+2019-12-09 20:10:34,829 - __main__ - INFO - Added Proxy : {'ip': '41.180.64.254', 'port': '80'}
+2019-12-09 20:10:37,954 - __main__ - INFO - Added IP : 41.180.64.254 , Response : <Response [200]>
+2019-12-09 20:10:37,960 - __main__ - INFO - Added Good Proxy : Proxy IP : 41.180.64.254 
+ Proxy Port : 80
+2019-12-09 20:10:55,422 - __main__ - INFO - Added Proxy : {'ip': '182.52.238.118', 'port': '50390'}
+2019-12-09 20:11:05,436 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7fd5f31af0b8>, 'Connection to 182.52.238.118 timed out. (connect timeout=10)')
+2019-12-09 20:12:56,914 - __main__ - INFO - Added Proxy : {'ip': '195.78.112.235', 'port': '37169'}
+2019-12-09 20:13:06,929 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7f8cfb712a20>, 'Connection to 195.78.112.235 timed out. (connect timeout=10)')
+2019-12-09 20:13:20,258 - __main__ - INFO - Added Proxy : {'ip': '81.182.164.40', 'port': '8080'}
+2019-12-09 20:13:25,692 - __main__ - INFO - Added IP : 81.182.164.40 , Response : <Response [200]>
+2019-12-09 20:14:56,437 - __main__ - INFO - Added Proxy : {'ip': '91.186.218.120', 'port': '44442'}
+2019-12-09 20:14:56,673 - __main__ - ERROR - ('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f36bd973978>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2019-12-09 20:15:15,918 - __main__ - INFO - Added Proxy : {'ip': '177.21.224.73', 'port': '8080'}
+2019-12-09 20:15:33,203 - __main__ - INFO - Added IP : 177.21.224.73 , Response : <Response [200]>
+2019-12-09 20:15:33,211 - __main__ - INFO - Added Good Proxy : Proxy IP : 177.21.224.73 
+ Proxy Port : 8080
+2019-12-09 20:19:47,011 - __main__ - INFO - Added Proxy : {'ip': '185.58.16.41', 'port': '8888'}
+2019-12-09 20:19:57,025 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7f073115dac8>, 'Connection to 185.58.16.41 timed out. (connect timeout=10)')
+2019-12-09 20:20:21,522 - __main__ - INFO - Added Proxy : {'ip': '110.77.231.80', 'port': '80'}
+2019-12-09 20:20:31,532 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7f91413f0b70>, 'Connection to 110.77.231.80 timed out. (connect timeout=10)')
+2019-12-09 20:20:31,540 - __main__ - INFO - Added ['bad', 'proxy'] : Proxy IP : 110.77.231.80 
+ Proxy Port : 80
+2019-12-09 20:21:23,978 - __main__ - INFO - Added Proxy : {'ip': '213.109.129.56', 'port': '8080'}
+2019-12-09 20:21:33,990 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7fd711c38b70>, 'Connection to 213.109.129.56 timed out. (connect timeout=10)')
+2019-12-09 20:21:49,728 - __main__ - INFO - Added Proxy : {'ip': '45.226.124.242', 'port': '8080'}
+2019-12-09 20:21:50,043 - __main__ - ERROR - ('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4515eb8b70>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2019-12-09 20:21:50,051 - __main__ - INFO - Added bad Proxy: Proxy IP : 45.226.124.242 
+ Proxy Port : 8080
+2019-12-09 20:22:12,787 - __main__ - INFO - Added Proxy : {'ip': '59.100.172.214', 'port': '8080'}
+2019-12-09 20:22:22,801 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7ff26bbf3ac8>, 'Connection to 59.100.172.214 timed out. (connect timeout=10)')
+2019-12-09 20:24:14,335 - __main__ - INFO - Added Proxy : {'ip': '165.22.36.112', 'port': '3128'}
+2019-12-09 20:24:20,818 - __main__ - INFO - Added IP : 165.22.36.112 , Response : <Response [200]>
+2019-12-09 20:24:20,821 - __main__ - INFO - Added good Proxy: Proxy IP : 165.22.36.112 
+ Proxy Port : 3128
+2019-12-09 20:25:12,640 - __main__ - INFO - Added Proxy : {'ip': '110.77.231.80', 'port': '80'}
+2019-12-09 20:25:22,655 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7f9b4a17f550>, 'Connection to 110.77.231.80 timed out. (connect timeout=10)')
+2019-12-09 20:26:42,056 - __main__ - INFO - Added Proxy : {'ip': '182.52.238.118', 'port': '50390'}
+2019-12-09 20:26:46,425 - __main__ - INFO - Added IP : 182.52.238.118 , Response : <Response [200]>
+2019-12-09 20:26:46,427 - __main__ - INFO - Added good Proxy: Proxy IP : 182.52.238.118 
+ Proxy Port : 50390
+2019-12-09 20:26:51,362 - __main__ - INFO - Added IP : 182.52.238.118 , Response : <Response [200]>
+2019-12-09 20:26:51,363 - __main__ - INFO - Added good Proxy: Proxy IP : 182.52.238.118 
+ Proxy Port : 50390
+2019-12-09 20:27:03,019 - __main__ - INFO - Added IP : 182.52.238.118 , Response : <Response [200]>
+2019-12-09 20:27:03,021 - __main__ - INFO - Added good Proxy: Proxy IP : 182.52.238.118 
+ Proxy Port : 50390
+2019-12-09 20:27:10,248 - __main__ - ERROR - ('Cannot connect to proxy.', ConnectionResetError(104, 'Connection reset by peer'))
+2019-12-09 20:28:09,188 - __main__ - INFO - Added Proxy : {'ip': '39.104.75.100', 'port': '3128'}
+2019-12-09 20:28:13,196 - __main__ - INFO - Added IP : 39.104.75.100 , Response : <Response [200]>
+2019-12-09 20:28:13,198 - __main__ - INFO - Added good Proxy: Proxy IP : 39.104.75.100 
+ Proxy Port : 3128
+2019-12-09 20:28:17,123 - __main__ - INFO - Added IP : 39.104.75.100 , Response : <Response [200]>
+2019-12-09 20:28:17,125 - __main__ - INFO - Added good Proxy: Proxy IP : 39.104.75.100 
+ Proxy Port : 3128
+2019-12-09 20:28:20,023 - __main__ - INFO - Added IP : 39.104.75.100 , Response : <Response [200]>
+2019-12-09 20:28:20,025 - __main__ - INFO - Added good Proxy: Proxy IP : 39.104.75.100 
+ Proxy Port : 3128
+2019-12-09 20:28:21,916 - __main__ - INFO - Added IP : 39.104.75.100 , Response : <Response [200]>
+2019-12-09 20:28:21,918 - __main__ - INFO - Added good Proxy: Proxy IP : 39.104.75.100 
+ Proxy Port : 3128
+2019-12-09 20:28:51,283 - __main__ - INFO - Added IP : 39.104.75.100 , Response : <Response [200]>
+2019-12-09 20:28:51,285 - __main__ - INFO - Added good Proxy: Proxy IP : 39.104.75.100 
+ Proxy Port : 3128
+2019-12-09 20:34:28,574 - __main__ - INFO - Added Proxy : {'ip': '195.78.112.235', 'port': '37169'}
+2019-12-09 20:34:38,589 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7f9cb0a8ca58>, 'Connection to 195.78.112.235 timed out. (connect timeout=10)')
+2019-12-09 20:34:38,591 - __main__ - INFO - Added bad Proxy: Proxy IP : 195.78.112.235 
+ Proxy Port : 37169
+2019-12-09 20:34:48,606 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7f9cb0a8cf28>, 'Connection to 195.78.112.235 timed out. (connect timeout=10)')
+2019-12-09 20:34:48,608 - __main__ - INFO - Added bad Proxy: Proxy IP : 195.78.112.235 
+ Proxy Port : 37169
+2019-12-09 20:34:56,857 - __main__ - INFO - Added IP : 195.78.112.235 , Response : <Response [200]>
+2019-12-09 20:34:56,859 - __main__ - INFO - Added good Proxy: Proxy IP : 195.78.112.235 
+ Proxy Port : 37169
+2019-12-09 20:35:04,396 - __main__ - ERROR - ('Cannot connect to proxy.', ConnectionResetError(104, 'Connection reset by peer'))
+2019-12-09 20:35:04,398 - __main__ - INFO - Added bad Proxy: Proxy IP : 195.78.112.235 
+ Proxy Port : 37169
+2019-12-09 20:35:15,833 - __main__ - INFO - Added IP : 195.78.112.235 , Response : <Response [200]>
+2019-12-09 20:35:15,835 - __main__ - INFO - Added good Proxy: Proxy IP : 195.78.112.235 
+ Proxy Port : 37169
+2019-12-09 20:37:04,998 - __main__ - INFO - Added Proxy : {'ip': '45.226.124.242', 'port': '8080'}
+2019-12-09 20:37:05,314 - __main__ - ERROR - ('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff40a57da90>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2019-12-09 20:37:05,316 - __main__ - INFO - Added bad Proxy: Proxy IP : 45.226.124.242 
+ Proxy Port : 8080
+2019-12-09 20:37:05,635 - __main__ - ERROR - ('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff40a57dcc0>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2019-12-09 20:37:05,637 - __main__ - INFO - Added bad Proxy: Proxy IP : 45.226.124.242 
+ Proxy Port : 8080
+2019-12-09 20:37:05,948 - __main__ - ERROR - ('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff40a52b240>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2019-12-09 20:37:05,950 - __main__ - INFO - Added bad Proxy: Proxy IP : 45.226.124.242 
+ Proxy Port : 8080
+2019-12-09 20:37:06,263 - __main__ - ERROR - ('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff40a52b8d0>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2019-12-09 20:37:06,265 - __main__ - INFO - Added bad Proxy: Proxy IP : 45.226.124.242 
+ Proxy Port : 8080
+2019-12-09 20:37:06,586 - __main__ - ERROR - ('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff40a52b978>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2019-12-09 20:37:06,587 - __main__ - INFO - Added bad Proxy: Proxy IP : 45.226.124.242 
+ Proxy Port : 8080
+2019-12-09 20:41:04,498 - __main__ - INFO - Added Proxy : {'ip': '177.21.224.73', 'port': '8080'}
+2019-12-09 20:41:14,510 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7fd19267da58>, 'Connection to 177.21.224.73 timed out. (connect timeout=10)')
+2019-12-09 20:41:14,513 - __main__ - INFO - Added bad Proxy: Proxy IP : 177.21.224.73 
+ Proxy Port : 8080
+2019-12-09 20:41:14,514 - __main__ - INFO - Added Proxy : {'ip': '183.89.114.250', 'port': '8080'}
+2019-12-09 20:41:14,585 - __main__ - ERROR - ('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd192696048>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2019-12-09 20:41:14,587 - __main__ - INFO - Added bad Proxy: Proxy IP : 183.89.114.250 
+ Proxy Port : 8080
+2019-12-09 20:41:14,588 - __main__ - INFO - Added Proxy : {'ip': '183.89.114.250', 'port': '8080'}
+2019-12-09 20:41:14,662 - __main__ - ERROR - ('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd1926edb70>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2019-12-09 20:41:14,664 - __main__ - INFO - Added bad Proxy: Proxy IP : 183.89.114.250 
+ Proxy Port : 8080
+2019-12-09 20:41:14,666 - __main__ - INFO - Added Proxy : None
+2019-12-09 20:42:13,929 - __main__ - INFO - Added Proxy : {'ip': '177.21.224.73', 'port': '8080'}
+2019-12-09 20:42:31,859 - __main__ - INFO - Added IP : 177.21.224.73 , Response : <Response [200]>
+2019-12-09 20:42:31,861 - __main__ - INFO - Added good Proxy: Proxy IP : 177.21.224.73 
+ Proxy Port : 8080
+2019-12-09 20:42:32,363 - __main__ - INFO - Added Proxy : {'ip': '177.220.188.213', 'port': '8080'}
+2019-12-09 20:42:39,282 - __main__ - INFO - Added IP : 177.220.188.213 , Response : <Response [200]>
+2019-12-09 20:42:39,284 - __main__ - INFO - Added good Proxy: Proxy IP : 177.220.188.213 
+ Proxy Port : 8080
+2019-12-09 20:42:39,786 - __main__ - INFO - Added Proxy : {'ip': '182.52.238.118', 'port': '50390'}
+2019-12-09 20:42:49,530 - __main__ - ERROR - ('Cannot connect to proxy.', ConnectionResetError(104, 'Connection reset by peer'))
+2019-12-09 20:42:49,533 - __main__ - INFO - Added bad Proxy: Proxy IP : 182.52.238.118 
+ Proxy Port : 50390
+2019-12-09 20:42:50,035 - __main__ - INFO - Added Proxy : {'ip': '39.104.75.100', 'port': '3128'}
+2019-12-09 20:43:47,996 - __main__ - INFO - Added Proxy : {'ip': '122.50.5.146', 'port': '10000'}
+2019-12-09 20:43:49,770 - __main__ - INFO - Added IP : 122.50.5.146 , Response : <Response [200]>
+2019-12-09 20:43:49,772 - __main__ - INFO - Added good Proxy: Proxy IP : 122.50.5.146 
+ Proxy Port : 10000
+2019-12-09 20:43:49,874 - __main__ - INFO - Added Proxy : {'ip': '122.50.5.146', 'port': '10000'}
+2019-12-09 20:43:51,254 - __main__ - INFO - Added IP : 122.50.5.146 , Response : <Response [200]>
+2019-12-09 20:43:51,257 - __main__ - INFO - Added good Proxy: Proxy IP : 122.50.5.146 
+ Proxy Port : 10000
+2019-12-09 20:43:51,358 - __main__ - INFO - Added Proxy : {'ip': '81.17.150.122', 'port': '8080'}
+2019-12-09 20:44:01,294 - __main__ - ERROR - ('Cannot connect to proxy.', RemoteDisconnected('Remote end closed connection without response',))
+2019-12-09 20:44:01,297 - __main__ - INFO - Added bad Proxy: Proxy IP : 81.17.150.122 
+ Proxy Port : 8080
+2019-12-09 20:44:01,398 - __main__ - INFO - Added Proxy : {'ip': '110.77.231.80', 'port': '80'}
+2019-12-09 20:44:11,414 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7fc54ec48470>, 'Connection to 110.77.231.80 timed out. (connect timeout=10)')
+2019-12-09 20:44:11,417 - __main__ - INFO - Added bad Proxy: Proxy IP : 110.77.231.80 
+ Proxy Port : 80
+2019-12-09 20:44:11,518 - __main__ - INFO - Added Proxy : {'ip': '91.186.218.120', 'port': '44442'}
+2019-12-09 20:44:11,753 - __main__ - ERROR - ('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc54ec48390>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2019-12-09 20:44:11,755 - __main__ - INFO - Added bad Proxy: Proxy IP : 91.186.218.120 
+ Proxy Port : 44442
+2019-12-09 20:51:58,979 - __main__ - INFO - Added Proxy : None
+2019-12-09 20:56:38,138 - __main__ - INFO - Added Proxy : {'ip': '45.226.124.242', 'port': '8080', 'alive_dead': '0'}
+2019-12-09 20:56:38,454 - __main__ - ERROR - ('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb3d5982048>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2019-12-09 20:57:16,985 - __main__ - INFO - Added Proxy : {'ip': '36.92.213.45', 'port': '8080', 'alive_dead': '0'}
+2019-12-09 20:57:21,021 - __main__ - INFO - Added IP : 36.92.213.45 , Response : <Response [200]>
+2019-12-09 20:57:36,377 - __main__ - INFO - Added Proxy : {'ip': '103.86.135.42', 'port': '8080', 'alive_dead': '0'}
+2019-12-09 20:57:46,390 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7f1ec71aa048>, 'Connection to 103.86.135.42 timed out. (connect timeout=10)')
+2019-12-09 20:57:46,392 - __main__ - INFO - Added bad Proxy: Proxy IP : 103.86.135.42 
+ Proxy Port : 8080
+2019-12-09 20:57:46,694 - __main__ - INFO - Added Proxy : {'ip': '94.51.83.2', 'port': '8080', 'alive_dead': '0'}
+2019-12-09 20:57:56,704 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7f1ec71aaf28>, 'Connection to 94.51.83.2 timed out. (connect timeout=10)')
+2019-12-09 20:57:56,706 - __main__ - INFO - Added bad Proxy: Proxy IP : 94.51.83.2 
+ Proxy Port : 8080
+2019-12-09 20:57:57,008 - __main__ - INFO - Added Proxy : {'ip': '39.104.75.100', 'port': '3128', 'alive_dead': '0'}
+2019-12-09 20:57:59,826 - __main__ - INFO - Added IP : 39.104.75.100 , Response : <Response [200]>
+2019-12-09 20:57:59,828 - __main__ - INFO - Added good Proxy: Proxy IP : 39.104.75.100 
+ Proxy Port : 3128
+2019-12-09 20:58:00,130 - __main__ - INFO - Added Proxy : {'ip': '51.158.106.54', 'port': '8811', 'alive_dead': '0'}
+2019-12-09 20:58:03,674 - __main__ - INFO - Added IP : 51.158.106.54 , Response : <Response [200]>
+2019-12-09 20:58:03,676 - __main__ - INFO - Added good Proxy: Proxy IP : 51.158.106.54 
+ Proxy Port : 8811
+2019-12-09 20:58:03,978 - __main__ - INFO - Added Proxy : {'ip': '177.21.224.73', 'port': '8080', 'alive_dead': '0'}
+2019-12-09 21:00:38,801 - __main__ - INFO - Added Proxy : {'ip': '81.17.150.122', 'port': '8080', 'alive_dead': '0'}
+2019-12-09 21:00:44,723 - __main__ - INFO - Added IP : 81.17.150.122 , Response : <Response [200]>
+2019-12-09 21:01:30,687 - __main__ - INFO - Added Proxy : {'ip': '110.77.231.80', 'port': '80', 'alive_dead': '0'}
+2019-12-09 21:01:40,700 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7f017b2bf9b0>, 'Connection to 110.77.231.80 timed out. (connect timeout=10)')
+2019-12-09 21:01:40,703 - __main__ - INFO - Added bad Proxy: Proxy IP : 110.77.231.80 
+ Proxy Port : 80
+2019-12-09 21:01:41,004 - __main__ - INFO - Added Proxy : {'ip': '195.78.112.235', 'port': '37169', 'alive_dead': '0'}
+2019-12-09 21:01:51,019 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7f017b2bfba8>, 'Connection to 195.78.112.235 timed out. (connect timeout=10)')
+2019-12-09 21:01:51,022 - __main__ - INFO - Added bad Proxy: Proxy IP : 195.78.112.235 
+ Proxy Port : 37169
+2019-12-09 21:01:51,323 - __main__ - INFO - Added Proxy : {'ip': '81.17.150.122', 'port': '8080', 'alive_dead': '0'}
+2019-12-09 21:02:01,339 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7f017b2682b0>, 'Connection to 81.17.150.122 timed out. (connect timeout=10)')
+2019-12-09 21:02:01,341 - __main__ - INFO - Added bad Proxy: Proxy IP : 81.17.150.122 
+ Proxy Port : 8080
+2019-12-09 21:02:01,643 - __main__ - INFO - Added Proxy : {'ip': '182.52.238.118', 'port': '50390', 'alive_dead': '0'}
+2019-12-09 21:02:05,165 - __main__ - ERROR - ('Cannot connect to proxy.', ConnectionResetError(104, 'Connection reset by peer'))
+2019-12-09 21:02:05,167 - __main__ - INFO - Added bad Proxy: Proxy IP : 182.52.238.118 
+ Proxy Port : 50390
+2019-12-09 21:02:05,469 - __main__ - INFO - Added Proxy : {'ip': '177.21.224.73', 'port': '8080', 'alive_dead': '0'}
+2019-12-09 21:02:15,485 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7f017b268ef0>, 'Connection to 177.21.224.73 timed out. (connect timeout=10)')
+2019-12-09 21:02:15,487 - __main__ - INFO - Added bad Proxy: Proxy IP : 177.21.224.73 
+ Proxy Port : 8080
+2019-12-09 21:02:15,788 - __main__ - INFO - Added Proxy : {'ip': '177.220.188.213', 'port': '8080', 'alive_dead': '0'}
+2019-12-09 21:06:17,075 - __main__ - INFO - Assigned Proxy : {'ip': '183.89.62.87', 'port': '8080', 'alive_dead': '0'}
+2019-12-09 21:07:13,853 - __main__ - INFO - Assigned Proxy : {'ip': '183.89.62.87', 'port': '8080', 'alive_dead': '0'}
+2019-12-09 21:07:16,868 - __main__ - INFO - Added IP : 183.89.62.87 , Response : <Response [200]>
+2019-12-09 21:07:16,871 - __main__ - INFO - Added good Proxy: Proxy IP : 183.89.62.87 
+ Proxy Port : 8080
+2019-12-09 21:07:17,173 - __main__ - INFO - Assigned Proxy : {'ip': '81.182.164.40', 'port': '8080', 'alive_dead': '0'}
+2019-12-09 21:07:23,243 - __main__ - INFO - Added IP : 81.182.164.40 , Response : <Response [200]>
+2019-12-09 21:07:23,245 - __main__ - INFO - Added good Proxy: Proxy IP : 81.182.164.40 
+ Proxy Port : 8080
+2019-12-09 21:07:23,547 - __main__ - INFO - Assigned Proxy : None
+2019-12-09 21:07:59,163 - __main__ - INFO - Assigned Proxy : {'ip': '195.78.112.235', 'port': '37169', 'alive_dead': '0'}
+2019-12-09 21:08:09,171 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7fb64c01db00>, 'Connection to 195.78.112.235 timed out. (connect timeout=10)')
+2019-12-09 21:08:09,174 - __main__ - INFO - Added bad Proxy: Proxy IP : 195.78.112.235 
+ Proxy Port : 37169
+2019-12-09 21:08:09,676 - __main__ - INFO - Assigned Proxy : {'ip': '177.21.224.73', 'port': '8080', 'alive_dead': '0'}
+2019-12-09 21:08:19,690 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7fb64c01d860>, 'Connection to 177.21.224.73 timed out. (connect timeout=10)')
+2019-12-09 21:08:19,693 - __main__ - INFO - Added bad Proxy: Proxy IP : 177.21.224.73 
+ Proxy Port : 8080
+2019-12-09 21:08:20,194 - __main__ - INFO - Assigned Proxy : {'ip': '183.89.114.250', 'port': '8080', 'alive_dead': '0'}
+2019-12-09 21:08:20,271 - __main__ - ERROR - ('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb64c037588>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2019-12-09 21:08:20,273 - __main__ - INFO - Added bad Proxy: Proxy IP : 183.89.114.250 
+ Proxy Port : 8080
+2019-12-09 21:08:20,775 - __main__ - INFO - Assigned Proxy : {'ip': '109.251.185.20', 'port': '36583', 'alive_dead': '0'}
+2019-12-09 21:08:31,416 - __main__ - ERROR - ('Cannot connect to proxy.', RemoteDisconnected('Remote end closed connection without response',))
+2019-12-09 21:08:31,419 - __main__ - INFO - Added bad Proxy: Proxy IP : 109.251.185.20 
+ Proxy Port : 36583
+2019-12-09 21:08:31,920 - __main__ - INFO - Assigned Proxy : {'ip': '41.180.64.254', 'port': '80', 'alive_dead': '0'}
+2019-12-09 21:08:36,970 - __main__ - INFO - Added IP : 41.180.64.254 , Response : <Response [200]>
+2019-12-09 21:08:36,972 - __main__ - INFO - Added good Proxy: Proxy IP : 41.180.64.254 
+ Proxy Port : 80
+2019-12-09 21:08:37,474 - __main__ - INFO - Assigned Proxy : {'ip': '185.58.16.41', 'port': '8888', 'alive_dead': '0'}
+2019-12-09 21:08:46,940 - __main__ - INFO - Added IP : 185.58.16.41 , Response : <Response [200]>
+2019-12-09 21:08:46,942 - __main__ - INFO - Added good Proxy: Proxy IP : 185.58.16.41 
+ Proxy Port : 8888
+2019-12-09 21:08:47,444 - __main__ - INFO - Assigned Proxy : {'ip': '45.226.124.242', 'port': '8080', 'alive_dead': '0'}
+2019-12-09 21:08:47,764 - __main__ - ERROR - ('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb64c047b38>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2019-12-09 21:08:47,767 - __main__ - INFO - Added bad Proxy: Proxy IP : 45.226.124.242 
+ Proxy Port : 8080
+2019-12-09 21:08:48,269 - __main__ - INFO - Assigned Proxy : {'ip': '91.186.218.120', 'port': '44442', 'alive_dead': '0'}
+2019-12-09 21:08:48,507 - __main__ - ERROR - ('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb64c047860>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2019-12-09 21:08:48,509 - __main__ - INFO - Added bad Proxy: Proxy IP : 91.186.218.120 
+ Proxy Port : 44442
+2019-12-09 21:08:49,011 - __main__ - INFO - Assigned Proxy : {'ip': '36.92.213.45', 'port': '8080', 'alive_dead': '0'}
+2019-12-09 21:08:59,027 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7fb64c047d68>, 'Connection to 36.92.213.45 timed out. (connect timeout=10)')
+2019-12-09 21:08:59,029 - __main__ - INFO - Added bad Proxy: Proxy IP : 36.92.213.45 
+ Proxy Port : 8080
+2019-12-09 21:08:59,531 - __main__ - INFO - Assigned Proxy : {'ip': '59.100.172.214', 'port': '8080', 'alive_dead': '0'}
+2019-12-09 21:09:09,545 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7fb64c037390>, 'Connection to 59.100.172.214 timed out. (connect timeout=10)')
+2019-12-09 21:09:09,547 - __main__ - INFO - Added bad Proxy: Proxy IP : 59.100.172.214 
+ Proxy Port : 8080
+2019-12-09 21:12:13,966 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7f6d8fa0b198>, 'Connection to 36.92.213.45 timed out. (connect timeout=10)')
+2019-12-09 21:12:46,498 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7f6d8fa21588>, 'Connection to 177.220.188.213 timed out. (connect timeout=10)')
+2019-12-09 21:12:57,518 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7f6d8fa21be0>, 'Connection to 185.58.16.41 timed out. (connect timeout=10)')
+2019-12-09 21:13:20,875 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7f6d8f9f4f98>, 'Connection to 213.109.129.56 timed out. (connect timeout=10)')
+2019-12-09 21:13:46,751 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7f6d8fa21ba8>, 'Connection to 195.78.112.235 timed out. (connect timeout=10)')
+2019-12-09 21:13:47,991 - __main__ - ERROR - ('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6d8fa213c8>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2019-12-09 21:13:59,011 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7f6d8fa0beb8>, 'Connection to 185.58.16.41 timed out. (connect timeout=10)')
+2019-12-09 21:14:24,810 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7f6d8fa219e8>, 'Connection to 109.251.185.20 timed out. (connect timeout=10)')
+2019-12-09 21:14:26,062 - __main__ - ERROR - ('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6d8fa20668>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2019-12-09 21:14:33,105 - __main__ - ERROR - ('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6d8fa21198>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2019-12-09 21:14:51,685 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7f6d8fa0b278>, 'Connection to 81.17.150.122 timed out. (connect timeout=10)')
+2019-12-09 21:15:02,702 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7f6d8fa0bcc0>, 'Connection to 91.237.3.59 timed out. (connect timeout=10)')
+2019-12-09 21:15:13,722 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7f6d8fa20748>, 'Connection to 182.52.238.118 timed out. (connect timeout=10)')
+2019-12-09 21:15:24,743 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7f6d8fa20358>, 'Connection to 36.92.213.45 timed out. (connect timeout=10)')
+2019-12-09 21:17:53,735 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7fd153934048>, 'Connection to 103.86.135.42 timed out. (connect timeout=10)')
+2019-12-09 21:18:04,749 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7fd153934400>, 'Connection to 177.21.224.73 timed out. (connect timeout=10)')
+2019-12-09 21:18:05,830 - __main__ - ERROR - ('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd1538e0cf8>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2019-12-09 21:20:37,469 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7fbc84a15b00>, 'Connection to 36.92.213.45 timed out. (connect timeout=10)')
+2019-12-09 21:29:42,724 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7fc8265fb080>, 'Connection to 183.89.62.87 timed out. (connect timeout=10)')
+2019-12-09 21:37:34,304 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7fa303935b38>, 'Connection to 36.92.213.45 timed out. (connect timeout=10)')
+2019-12-09 21:38:06,493 - __main__ - ERROR - ('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa303951080>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2019-12-09 21:40:51,000 - __main__ - ERROR - ('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f657ebcb048>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2019-12-09 21:43:04,517 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7f7205914e80>, 'Connection to 81.17.150.122 timed out. (connect timeout=10)')
+2019-12-09 21:43:22,295 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7f7205914e10>, 'Connection to 109.251.185.20 timed out. (connect timeout=10)')
+2019-12-09 21:45:00,942 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7fbc8e6a3080>, 'Connection to 110.77.231.80 timed out. (connect timeout=10)')
+2019-12-09 21:45:26,218 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7f9a6fa29a90>, 'Connection to 182.52.238.118 timed out. (connect timeout=10)')
+2019-12-09 21:45:37,239 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7f9a6fa29be0>, 'Connection to 185.58.16.41 timed out. (connect timeout=10)')
+2019-12-09 21:45:48,260 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7f9a6f9d1208>, 'Connection to 177.220.188.213 timed out. (connect timeout=10)')
+2019-12-09 21:46:06,012 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7f9a6f9d17f0>, 'Connection to 110.77.231.80 timed out. (connect timeout=10)')
+2019-12-09 21:46:40,792 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7efee8013048>, 'Connection to 81.17.150.122 timed out. (connect timeout=10)')
+2019-12-09 21:47:04,562 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7efee8027908>, 'Connection to 109.251.185.20 timed out. (connect timeout=10)')
+2019-12-09 21:47:05,882 - __main__ - ERROR - ('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7efee803ff98>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2019-12-09 21:47:22,933 - __main__ - ERROR - ('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7efee80275f8>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2019-12-09 21:47:33,951 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7efee8013b70>, 'Connection to 177.21.224.73 timed out. (connect timeout=10)')
+2019-12-09 21:47:44,967 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7efee8027dd8>, 'Connection to 195.78.112.235 timed out. (connect timeout=10)')
+2019-12-09 21:47:55,982 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7efee7fbcba8>, 'Connection to 91.237.3.59 timed out. (connect timeout=10)')
+2019-12-09 21:48:35,659 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7f711c40b5c0>, 'Connection to 177.21.224.73 timed out. (connect timeout=10)')
+2019-12-09 21:49:06,908 - __main__ - ERROR - Timeout Error
+2019-12-09 21:49:07,988 - __main__ - ERROR - ('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f711c427898>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2019-12-09 21:50:42,499 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7ff32b269a90>, 'Connection to 213.109.129.56 timed out. (connect timeout=5)')
+2019-12-09 21:50:50,749 - __main__ - ERROR - ('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff32b213588>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2019-12-09 21:52:37,156 - __main__ - ERROR - (<urllib3.connection.HTTPConnection object at 0x7f835e258a58>, 'Connection to 177.220.188.213 timed out. (connect timeout=5)')
+2019-12-09 21:52:45,385 - __main__ - ERROR - ('Cannot connect to proxy.', ConnectionResetError(104, 'Connection reset by peer'))
