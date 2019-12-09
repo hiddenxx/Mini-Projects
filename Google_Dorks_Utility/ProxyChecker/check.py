@@ -36,10 +36,14 @@ timeout = 5
 
 class checker(object):
     def __init__(self):
-        self.user_agent = ua.random
-        self.url = random.choice(urls)
-        self.proxy_ip , self.proxy_port = self.assign_ip()
-        self.alive_dead = 0
+        try:
+            self.user_agent = ua.random
+            self.url = random.choice(urls)
+            self.proxy_ip , self.proxy_port = self.assign_ip()
+            self.alive_dead = 0
+        except Exception as e:
+            print(e)
+
 
     def generate_random_ip(self):
         ip = ".".join(str(random.randint(0, 255)) for _ in range(4))
@@ -76,22 +80,29 @@ class checker(object):
         try:
             ip_port_table = db.table('ip_port')
             result1 = [e.eid for e in ip_port_table.all()]
+            if result1 == None:
+                print(f"Stopped Because {result1}")
+                sleep(100)
             length_db = len(result1)
             random_index = random.randint(0,length_db)
             result2 = ip_port_table.get(eid=random_index)
             print(result2)
             logger.info(f'Assigned Proxy : {result2}')
             return result2['ip'],result2['port']
-        except TypeError as e:
+        except Exception as e:
             print(e)
 
     def update_ip(self):
-        proxy_file = open('proxy.txt')
-        proxy_file = list(proxy_file)
-        ip_port_table = db.table('ip_port')
-        for item in proxy_file:
-            ip,port = item.split(':')
-            ip_port_table.insert({'ip':ip.rstrip(),'port':port.rstrip(),'alive_dead':'0'})
+        try:
+            proxy_file = open('proxy.txt')
+            proxy_file = list(proxy_file)
+            ip_port_table = db.table('ip_port')
+            for item in proxy_file:
+                ip,port = item.split(':')
+                ip_port_table.insert({'ip':ip.rstrip(),'port':port.rstrip(),'alive_dead':'0'})
+        except Exception as e:
+            update_ip()
+
 
     def print_all(self):
         print(f"Proxy IP : {self.proxy_ip} \n Proxy Port : {self.proxy_port} \n User-Agent : {self.user_agent} \n "
@@ -142,7 +153,10 @@ if __name__ == '__main__':
 
     # Main Application run
     while True:
-        check = checker()
-        check.run()
-        del check
-        sleep(1)
+        try:
+            check = checker()
+            check.run()
+            del check
+            sleep(1)
+        except Exception as e:
+            pass
