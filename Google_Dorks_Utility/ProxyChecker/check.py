@@ -10,10 +10,10 @@ from time import sleep
 from datetime import date
 from tinydb import TinyDB, Query, where
 import random
-
+import threading
 
 def logs_local():
-    logger = logging.getLogger(__name__)
+    logger = logging.getLogger('__name__')
     c_handler = logging.StreamHandler()
     t = date.today()
     f_handler = logging.FileHandler(f"Logs/{t}.log",mode='a')
@@ -33,14 +33,15 @@ db = TinyDB('proxy_db.json')
 ua = UserAgent()
 urls = ['http://hiddenx.online']
 timeout = 5
-
+#,
 class checker(object):
     def __init__(self):
         try:
             self.user_agent = ua.random
             self.url = random.choice(urls)
-            self.proxy_ip , self.proxy_port = self.assign_ip()
+            self.proxy_ip , self.proxy_port = "",""
             self.alive_dead = 0
+            self.response_code = 0
         except Exception as e:
             print(e)
 
@@ -50,6 +51,7 @@ class checker(object):
         return ip
 
     def check(self):
+        self.proxy_ip , self.proxy_port = self.assign_ip()
         with requests.Session() as r :
             r.headers = {'User-Agent': self.user_agent,'X-Forwarded-For':self.generate_random_ip(),'X-Forwarded-For':self.proxy_ip}
             proxies = {"http":self.proxy_ip+":"+self.proxy_port.strip('\n'), "https":self.proxy_ip+":"+self.proxy_port.strip('\n')}
@@ -62,6 +64,7 @@ class checker(object):
             try:
                 response = r.get(self.url,proxies=proxies,timeout=(timeout,27))
                 sleep(0.5)
+                self.response_code = int(response.status_code)
                 logger.info(f'Checked IP : {self.proxy_ip} , Response : {response}')
 
                 return response
@@ -77,73 +80,62 @@ class checker(object):
 
     def assign_ip(self):
         # Proxy = Query()
-        try:
-            ip_port_table = db.table('ip_port')
-            result1 = [e.eid for e in ip_port_table.all()]
-            if result1 == None:
-                print(f"Stopped Because {result1}")
-                sleep(100)
-            length_db = len(result1)
-            random_index = random.randint(0,length_db)
-            result2 = ip_port_table.get(eid=random_index)
-            print(result2)
-            logger.info(f'Assigned Proxy : {result2}')
-            return result2['ip'],result2['port']
-        except Exception as e:
-            print(e)
+        ip_port_table = db.table('ip_port')
+        result1 = [e.eid for e in ip_port_table.all()]
+        length_db = len(result1)
+        random_index = random.randint(0,length_db)
+        result2 = ip_port_table.get(eid=random_index)
+        print(result2)
+        logger.info(f'Assigned Proxy : {result2}')
+        return result2['ip'],result2['port']
 
     def update_ip(self):
-        try:
-            proxy_file = open('proxy.txt')
-            proxy_file = list(proxy_file)
-            ip_port_table = db.table('ip_port')
-            for item in proxy_file:
-                ip,port = item.split(':')
-                ip_port_table.insert({'ip':ip.rstrip(),'port':port.rstrip(),'alive_dead':'0'})
-        except Exception as e:
-            update_ip()
+        proxy_file = open('proxy.txt')
+        proxy_file = list(proxy_file)
+        ip_port_table = db.table('ip_port')
+        for item in proxy_file:
+            ip,port = item.split(':')
+            ip_port_table.insert({'ip':ip.rstrip(),'port':port.rstrip(),'alive_dead':'0'})
 
 
     def print_all(self):
         print(f"Proxy IP : {self.proxy_ip} \n Proxy Port : {self.proxy_port} \n User-Agent : {self.user_agent} \n "
         + f"Url : {self.url}")
 
+    def alive_dead_process(self,temp_table):
+            result = temp_table.get(where('ip') == self.proxy_ip)
+            if self.response_code == 200:
+                self.alive_dead = int(result['alive_dead']) + 1
+                print(table_name,self.alive_dead,int(result['alive_dead']))
+            else:
+                self.alive_dead = result['alive_dead'] - 1
+                print(table_name,self.alive_dead,int(result['alive_dead']))
+
     def insert_into_table(self,response,table_name):
         temp_table = db.table(table_name)
         if response is None:
-            status_code = -1
+            self.response_code = -1
         else :
-            status_code = response.status_code
+            self.response_code = response.status_code
 
-        def alive_dead_process(temp_table,status_code):
-            try:
-                result = temp_table.get(where('ip') == self.proxy_ip)
-                if status_code == 200:
-                    self.alive_dead = int(result['alive_dead']) + 1
-                    print(table_name,self.alive_dead,int(result['alive_dead']))
-                else:
-                    self.alive_dead = result['alive_dead'] - 1
-                    print(table_name,self.alive_dead,int(result['alive_dead']))
-            except Exception as e:
-                print(response)
-
-        alive_dead_process(temp_table,status_code)
+        if temp_table:
+            alive_dead_process(temp_table)
 
         if temp_table.contains(where('ip') == self.proxy_ip):
-            temp_table.update({'ip':self.proxy_ip,'port':self.proxy_port,'response_code':status_code,'alive_dead':self.alive_dead},
+            temp_table.update({'ip':self.proxy_ip,'port':self.proxy_port,'response_code':self.response_code,'alive_dead':self.alive_dead},
             where('ip') == self.proxy_ip)
         else:
-            temp_table.insert({'ip':self.proxy_ip,'port':self.proxy_port,'response_code':status_code,'alive_dead':self.alive_dead})
+            temp_table.insert({'ip':self.proxy_ip,'port':self.proxy_port,'response_code':self.response_code,'alive_dead':self.alive_dead})
 
         logger.info(f'Processed {table_name.split("_")[0]} Proxy: Proxy IP : {self.proxy_ip} \n Proxy Port : {self.proxy_port}')
 
     def run(self):
-        response = self.check()
-
-        if response:
-            self.insert_into_table(response,"good_proxy")
-        else:
-            self.insert_into_table(response,"bad_proxy")
+        while True:
+            response = self.check()
+            if response:
+                self.insert_into_table(response,"good_proxy")
+            else:
+                self.insert_into_table(response,"bad_proxy")
 
 if __name__ == '__main__':
 
@@ -152,11 +144,10 @@ if __name__ == '__main__':
     # check.update_ip()
 
     # Main Application run
-    while True:
-        try:
-            check = checker()
-            check.run()
-            del check
-            sleep(1)
-        except Exception as e:
-            pass
+    try:
+        check = checker()
+        check.run()
+        del check
+        c = raw_input("Type to Exit")
+    except Exception as e:
+        pass
